@@ -13,6 +13,7 @@
       "name": "ros2",
       "intelliSenseMode": "gcc-x64",
       "compilerPath": "/usr/bin/gcc",
+      "compileCommands": "${workspaceFolder}/build/compile_commands.json",
       "cStandard": "gnu11",
       "cppStandard": "c++17"
     }
