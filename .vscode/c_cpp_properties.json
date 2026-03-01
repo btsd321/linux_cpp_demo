@@ -6,11 +6,8 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
-        "/opt/ros/humble/include/**",
-        "/home/lixinlong/Project/linux_cpp_demo/include/**",
-        "/usr/include/**"
+        "/home/lixinlong/Project/linux_cpp_demo/include/**"
       ],
-      "name": "ros2",
       "intelliSenseMode": "gcc-x64",
       "compilerPath": "/usr/bin/gcc",
       "compileCommands": "${workspaceFolder}/build/compile_commands.json",
