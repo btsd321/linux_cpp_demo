@@ -1,0 +1,42 @@
+---
+# 基于 Google 风格的 C++ 代码格式化配置
+BasedOnStyle: Google
+
+# 缩进宽度
+IndentWidth: 4
+
+# Switch-Case 缩进：case 标签相对于 switch 缩进
+IndentCaseLabels: true
+
+# 访问修饰符缩进（public/private/protected）
+AccessModifierOffset: -4
+
+# 列宽限制
+ColumnLimit: 120
+
+# 指针和引用对齐方式
+PointerAlignment: Left
+ReferenceAlignment: Left
+
+# 大括号换行风格
+BreakBeforeBraces: Allman
+
+# 命名空间内容不缩进
+NamespaceIndentation: None
+
+# 允许短的函数、if、循环在一行
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+
+# 在二元运算符前换行
+BreakBeforeBinaryOperators: None
+
+# 构造函数初始化列表风格
+BreakConstructorInitializers: BeforeColon
+ConstructorInitializerIndentWidth: 4
+
+# 参数对齐
+AlignAfterOpenBracket: Align
+BinPackArguments: true
+BinPackParameters: true
